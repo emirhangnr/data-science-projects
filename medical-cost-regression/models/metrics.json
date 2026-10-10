@@ -1,0 +1,28 @@
+{
+  "best_params": {
+    "criterion": "squared_error",
+    "max_depth": 5,
+    "min_samples_leaf": 10,
+    "min_samples_split": 2
+  },
+  "cv_r2": 0.8339618351902331,
+  "depth": 5,
+  "leaves": 22,
+  "test": {
+    "r2": 0.896364877497424,
+    "rmse": 4363.895302077093,
+    "mae": 2599.1258097820996
+  },
+  "comparison": {
+    "Decision Tree (tuned)": {
+      "r2": 0.896364877497424,
+      "rmse": 4363.895302077093,
+      "mae": 2599.1258097820996
+    },
+    "Decision Tree (baseline)": {
+      "r2": 0.8019653713172104,
+      "rmse": 6032.417750006214,
+      "mae": 2814.77522316791
+    }
+  }
+}
