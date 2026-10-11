@@ -15,3 +15,9 @@ Predicts individual medical insurance charges with a tuned Decision Tree. Includ
 Predicts telecom customer churn with a class-balanced Logistic Regression. Includes EDA, a comparison with Random Forest and Gradient Boosting, and a Streamlit app.
 
 [![Live App](https://img.shields.io/badge/Live%20App-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)](https://customer-churn-telco-ml.streamlit.app/)
+
+### California Housing Prices — Regression
+
+Predicts median house values of California districts with a tuned HistGradientBoosting model. Includes EDA, a comparison with Random Forest and Linear Regression, and a Streamlit app.
+
+[![Live App](https://img.shields.io/badge/Live%20App-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)](https://california-housing-prediction.streamlit.app/)
