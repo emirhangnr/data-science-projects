@@ -1,0 +1,47 @@
+{
+  "best_params": {
+    "min_samples_leaf": 50,
+    "max_leaf_nodes": 31,
+    "max_iter": 500,
+    "learning_rate": 0.1,
+    "l2_regularization": 1.0
+  },
+  "cv_rmse": 0.46583547884354864,
+  "test": {
+    "r2": 0.8443546056282213,
+    "rmse": 0.45161833688040665,
+    "mae": 0.2969940425552564
+  },
+  "comparison": {
+    "HistGradientBoosting (tuned)": {
+      "r2": 0.8443546056282213,
+      "rmse": 0.45161833688040665,
+      "mae": 0.2969940425552564
+    },
+    "HistGradientBoosting (baseline)": {
+      "r2": 0.8347108310143663,
+      "rmse": 0.4653991953632404,
+      "mae": 0.3110552128758936
+    },
+    "Random Forest": {
+      "r2": 0.8046244867176197,
+      "rmse": 0.5059859946022769,
+      "mae": 0.3277310800872094
+    },
+    "Linear Regression": {
+      "r2": 0.5757877060324508,
+      "rmse": 0.7455813830127764,
+      "mae": 0.5332001304956565
+    }
+  },
+  "importance": {
+    "MedInc": 0.4145,
+    "HouseAge": 0.0423,
+    "AveRooms": 0.0717,
+    "AveBedrms": 0.007,
+    "Population": 0.0074,
+    "AveOccup": 0.1528,
+    "Latitude": 0.9703,
+    "Longitude": 0.8161
+  }
+}
